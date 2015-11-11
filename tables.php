@@ -12,37 +12,27 @@
 
 	class CreateTables {
 
+		$html = "<table id='topTable' width='100px' border='0' cellpadding='0'  align='center' caption='år'>"
+
+		$db = new MyDB();
+
 		function configTable($sql) {
-
-			$html = "<table id='topTable' width='100px' border='0' cellpadding='0'  align='center' caption='år'>
-				<tr>
-					<td bgcolor=fff909><a href=?year=2008 /a>2008</td>
-					<td bgcolor=fff909><a href=?year=2009 /a>2009</td>
-					<td bgcolor=fff909><a href=?year=2010 /a>2010</td>
-					<td bgcolor=fff909><a href=?year=2011 /a>2011</td>
-					<td bgcolor=fff909><a href=?year=2012 /a>2012</td>
-					<td bgcolor=fff909><a href=?year=2013 /a>2013</td>
-					<td bgcolor=fff909><a href=?year=2014 /a>2014</td>
-					<td bgcolor=fff909><a href=?year=2015 /a>2015</td>
-				</tr>
-		
-				</table>";
-
-			//$db = new MyDB()
-
-			/*
 			$returnValue = $db->query($sql);
-			while ($row=$returnValue->fetchArray(SQLITE3_ASSOC)){
-				echo 'ID = '.$row['ID'] . '<br>';
-				echo 'DeviceID = ' .$row['deviceID'] . '<br>';
-				echo 'TimePoint = ' .$row['timePoint'] . '<br>';
-				echo 'Action = ' .$row['action'] . '<br>';
+				while ($row=$returnValue->fetchArray(SQLITE3_ASSOC)){
+					$html = $html . "<tr>";
+					$html = $html . "<td>" .$row['ID'] ."</td>";
+					$html = $html . "<td>" .$row['deviceID'] ."</td>";
+					$html = $html . "<td>" .$row['timePoint'] ."</td>";
+					$html = $html . "<td>" .$row['action'] ."</td>";
 
-				echo '<br>';
-			}
+					$html = $html . "</tr>";
+				}
 
-			*/
-			//$db->close();
+			$html = $html . "</table>";
+
+			$db->close();
+
+			
 
 			return $html;
 		}
