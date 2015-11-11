@@ -1,0 +1,17 @@
+#inner{
+		display: table;
+		font-family: Verdana;
+		font-size: x-large;
+		text-align: justify;
+}
+#outer{
+		width: 900px;
+		height: 1200px;
+		background-color: lightblue;
+		margin: 0 auto;
+		border-radius: 15px;
+	}
+#body 
+	{
+		background-color: whitesmoke;
+	}
