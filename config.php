@@ -20,42 +20,23 @@ ini_set('display_errors', 'On');  //On or Off
 
 include 'tables.php';
 
-$db = new MyDB();
 $tables = new CreateTables();
 
-if (!$db){
-	echo $db->lastErrorMsg();
-} 
 
-$sql = "SELECT * from timeschema";
+$sql = "SELECT * FROM devices d INNER JOIN timeschema t ON d.DeviceId = t.DeviceId ";
 
 echo $tables->configTable($sql);
 
-
-$returnValue = $db->query($sql);
-	while ($row=$returnValue->fetchArray(SQLITE3_ASSOC)){
-		echo "ID = ".$row['ID'] . "<br>";
-		echo "DeviceID = " .$row['deviceID'] . "<br>";
-		echo "TimePoint = " .$row['timePoint'] . "<br>";
-		echo "Action = " .$row['action'] . "<br>";
-
-		echo "<br>";
-	}
-
-
-$db->close();
-
 ?>
-<div id="TextBoxesGroup">
+	<div id="TextBoxesGroup">
 		<div id="TextBoxDiv1" >
 			<label>TextBox #1: </label><input type="hidden" id="textbox1" >
 		</div>
 	</div>
 
-	<input type='button' value='Add Button' id='addButton'>
-	<input type='button' value='Remove Button' id='removeButton'>
-	<input type='button' value='Get TextBox Value' id='getButtonValue'>
+		<input type='button' value='Add Button' id='addButton'>
+		<input type='button' value='Remove Button' id='removeButton'>
+		<input type='button' value='Get TextBox Value' id='getButtonValue'>
 	</div>
 </body>
-
 </html>
