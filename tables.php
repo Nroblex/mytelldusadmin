@@ -15,7 +15,7 @@
 		function configTable($sql) {
 
 			$db = new MyDB();
-			$html = "<table id='topTable' width='500px' border='0' cellpadding='0' align='center' caption='schema'>";
+			$html = "<table id='topTable' width='100%' border='0' cellpadding='0' align='left' caption='schema'>";
 			$html = $html . "<th>DeviceID</th>";
 			$html = $html . "<th>Namn</th>";
 			$html = $html . "<th>Tidpunkt</th>";
@@ -24,7 +24,7 @@
 
 			$returnValue = $db->query($sql);
 				while ($row=$returnValue->fetchArray(SQLITE3_ASSOC)){
-					$html = $html . "<tr>";
+					$html = $html . "<tr align='center'>";
 			
 					$html = $html . "<td>" .$row['deviceID'] ."</td>";
 					$html = $html . "<td>" .$row['deviceName'] ."</td>";

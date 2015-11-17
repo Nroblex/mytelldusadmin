@@ -28,15 +28,10 @@ $sql = "SELECT * FROM devices d INNER JOIN timeschema t ON d.DeviceId = t.Device
 echo $tables->configTable($sql);
 
 ?>
-	<div id="TextBoxesGroup">
-		<div id="TextBoxDiv1" >
-			<label>TextBox #1: </label><input type="hidden" id="textbox1" >
-		</div>
-	</div>
-
-		<input type='button' value='Add Button' id='addButton'>
-		<input type='button' value='Remove Button' id='removeButton'>
-		<input type='button' value='Get TextBox Value' id='getButtonValue'>
-	</div>
 </body>
+
+<div id ="configDiv" width="100%">
+	<input type="button" id="addRow" value="ny rad" name="addRow" />
+</div>
+
 </html>
