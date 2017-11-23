@@ -1,0 +1,1158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<devices>
+
+<!-- Config för Kontakt-skrivbord -->
+	<device deviceId='2' weekday='Måndag'>
+		<id>259</id>
+		<timepoint>15:25</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='2' weekday='Måndag'>
+		<id>261</id>
+		<timepoint>16:01</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='2' weekday='Måndag'>
+		<id>262</id>
+		<timepoint>16:30</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='2' weekday='Måndag'>
+		<id>263</id>
+		<timepoint>16:32</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='2' weekday='Måndag'>
+		<id>264</id>
+		<timepoint>16:35</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='2' weekday='Måndag'>
+		<id>265</id>
+		<timepoint>22:45</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='2' weekday='Måndag'>
+		<id>285</id>
+		<timepoint>14:58</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='2' weekday='Tisdag'>
+		<id>266</id>
+		<timepoint>01:00</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='2' weekday='Tisdag'>
+		<id>267</id>
+		<timepoint>01:05</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='2' weekday='Tisdag'>
+		<id>268</id>
+		<timepoint>15:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='2' weekday='Tisdag'>
+		<id>269</id>
+		<timepoint>16:30</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='2' weekday='Tisdag'>
+		<id>270</id>
+		<timepoint>16:45</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='2' weekday='Tisdag'>
+		<id>271</id>
+		<timepoint>22:48</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='2' weekday='Onsdag'>
+		<id>272</id>
+		<timepoint>09:05</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='2' weekday='Onsdag'>
+		<id>273</id>
+		<timepoint>10:10</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='2' weekday='Onsdag'>
+		<id>274</id>
+		<timepoint>15:30</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='2' weekday='Onsdag'>
+		<id>275</id>
+		<timepoint>18:10</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='2' weekday='Onsdag'>
+		<id>276</id>
+		<timepoint>18:13</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='2' weekday='Onsdag'>
+		<id>277</id>
+		<timepoint>23:01</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='2' weekday='Torsdag'>
+		<id>278</id>
+		<timepoint>15:20</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='2' weekday='Torsdag'>
+		<id>279</id>
+		<timepoint>18:45</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='2' weekday='Torsdag'>
+		<id>280</id>
+		<timepoint>19:00</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='2' weekday='Torsdag'>
+		<id>281</id>
+		<timepoint>22:48</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='2' weekday='Fredag'>
+		<id>282</id>
+		<timepoint>09:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='2' weekday='Fredag'>
+		<id>283</id>
+		<timepoint>09:15</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='2' weekday='Fredag'>
+		<id>284</id>
+		<timepoint>14:40</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='2' weekday='Fredag'>
+		<id>286</id>
+		<timepoint>16:30</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='2' weekday='Fredag'>
+		<id>287</id>
+		<timepoint>19:20</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='2' weekday='Fredag'>
+		<id>288</id>
+		<timepoint>19:24</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='2' weekday='Fredag'>
+		<id>289</id>
+		<timepoint>23:31</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='2' weekday='Lördag'>
+		<id>290</id>
+		<timepoint>00:14</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='2' weekday='Lördag'>
+		<id>291</id>
+		<timepoint>01:02</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='2' weekday='Lördag'>
+		<id>292</id>
+		<timepoint>16:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='2' weekday='Lördag'>
+		<id>293</id>
+		<timepoint>18:20</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='2' weekday='Lördag'>
+		<id>294</id>
+		<timepoint>20:05</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='2' weekday='Lördag'>
+		<id>295</id>
+		<timepoint>23:19</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='2' weekday='Söndag'>
+		<id>296</id>
+		<timepoint>16:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='2' weekday='Söndag'>
+		<id>298</id>
+		<timepoint>22:10</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='3' weekday='Måndag'>
+		<id>299</id>
+		<timepoint>15:11</timepoint>
+ 		<action>ON</action>
+	</device>
+
+<!-- Config för Kontakt-arbetsskök -->
+	<device deviceId='3' weekday='Måndag'>
+		<id>300</id>
+		<timepoint>23:02</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='3' weekday='Tisdag'>
+		<id>301</id>
+		<timepoint>15:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='3' weekday='Tisdag'>
+		<id>302</id>
+		<timepoint>23:02:10</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='3' weekday='Onsdag'>
+		<id>304</id>
+		<timepoint>15:01</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='3' weekday='Onsdag'>
+		<id>309</id>
+		<timepoint>23:12</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='3' weekday='Torsdag'>
+		<id>305</id>
+		<timepoint>15:00</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='3' weekday='Torsdag'>
+		<id>310</id>
+		<timepoint>23:11</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='3' weekday='Fredag'>
+		<id>306</id>
+		<timepoint>14:59</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='3' weekday='Fredag'>
+		<id>313</id>
+		<timepoint>23:50</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='3' weekday='Lördag'>
+		<id>307</id>
+		<timepoint>15:07</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='3' weekday='Lördag'>
+		<id>314</id>
+		<timepoint>23:44</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='3' weekday='Söndag'>
+		<id>308</id>
+		<timepoint>13:00</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='3' weekday='Söndag'>
+		<id>311</id>
+		<timepoint>23:09</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='4' weekday='Måndag'>
+		<id>315</id>
+		<timepoint>14:40</timepoint>
+ 		<action>ON</action>
+	</device>
+
+<!-- Config för Vardagsrum -->
+	<device deviceId='4' weekday='Måndag'>
+		<id>322</id>
+		<timepoint>20:10</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='4' weekday='Måndag'>
+		<id>323</id>
+		<timepoint>20:11</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='4' weekday='Måndag'>
+		<id>324</id>
+		<timepoint>23:30</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='4' weekday='Tisdag'>
+		<id>316</id>
+		<timepoint>14:45</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='4' weekday='Tisdag'>
+		<id>325</id>
+		<timepoint>20:00</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='4' weekday='Tisdag'>
+		<id>326</id>
+		<timepoint>20:01</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='4' weekday='Tisdag'>
+		<id>327</id>
+		<timepoint>23:30</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='4' weekday='Onsdag'>
+		<id>317</id>
+		<timepoint>14:46</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='4' weekday='Onsdag'>
+		<id>328</id>
+		<timepoint>19:30</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='4' weekday='Onsdag'>
+		<id>329</id>
+		<timepoint>19:31</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='4' weekday='Onsdag'>
+		<id>330</id>
+		<timepoint>23:34</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='4' weekday='Torsdag'>
+		<id>318</id>
+		<timepoint>14:59</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='4' weekday='Torsdag'>
+		<id>331</id>
+		<timepoint>19:37</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='4' weekday='Torsdag'>
+		<id>332</id>
+		<timepoint>23:38</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='4' weekday='Torsdag'>
+		<id>333</id>
+		<timepoint>19:38</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='4' weekday='Fredag'>
+		<id>319</id>
+		<timepoint>14:41</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='4' weekday='Fredag'>
+		<id>334</id>
+		<timepoint>18:30</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='4' weekday='Fredag'>
+		<id>335</id>
+		<timepoint>18:31</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='4' weekday='Fredag'>
+		<id>336</id>
+		<timepoint>20:10</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='4' weekday='Fredag'>
+		<id>337</id>
+		<timepoint>20:12</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='4' weekday='Fredag'>
+		<id>338</id>
+		<timepoint>23:45</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='4' weekday='Fredag'>
+		<id>489</id>
+		<timepoint>15:20</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='4' weekday='Fredag'>
+		<id>492</id>
+		<timepoint>15:51</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='4' weekday='Lördag'>
+		<id>320</id>
+		<timepoint>14:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='4' weekday='Lördag'>
+		<id>339</id>
+		<timepoint>18:33</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='4' weekday='Lördag'>
+		<id>340</id>
+		<timepoint>18:35</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='4' weekday='Lördag'>
+		<id>341</id>
+		<timepoint>21:05</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='4' weekday='Lördag'>
+		<id>342</id>
+		<timepoint>21:07</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='4' weekday='Lördag'>
+		<id>343</id>
+		<timepoint>23:50</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='4' weekday='Söndag'>
+		<id>321</id>
+		<timepoint>13:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='4' weekday='Söndag'>
+		<id>344</id>
+		<timepoint>17:56</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='4' weekday='Söndag'>
+		<id>345</id>
+		<timepoint>18:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='4' weekday='Söndag'>
+		<id>346</id>
+		<timepoint>21:10</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='4' weekday='Söndag'>
+		<id>347</id>
+		<timepoint>21:12</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='4' weekday='Söndag'>
+		<id>348</id>
+		<timepoint>23:15</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='5' weekday='Måndag'>
+		<id>349</id>
+		<timepoint>14:10</timepoint>
+ 		<action>ON</action>
+	</device>
+
+<!-- Config för Kontakt-matplats-kök -->
+	<device deviceId='5' weekday='Måndag'>
+		<id>362</id>
+		<timepoint>23:50</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='5' weekday='Tisdag'>
+		<id>350</id>
+		<timepoint>14:11</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='5' weekday='Tisdag'>
+		<id>361</id>
+		<timepoint>23:50</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='5' weekday='Onsdag'>
+		<id>351</id>
+		<timepoint>12:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='5' weekday='Onsdag'>
+		<id>360</id>
+		<timepoint>23:50</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='5' weekday='Torsdag'>
+		<id>352</id>
+		<timepoint>13:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='5' weekday='Torsdag'>
+		<id>359</id>
+		<timepoint>23:50</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='5' weekday='Fredag'>
+		<id>353</id>
+		<timepoint>11:20</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='5' weekday='Fredag'>
+		<id>358</id>
+		<timepoint>23:50</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='5' weekday='Lördag'>
+		<id>354</id>
+		<timepoint>10:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='5' weekday='Lördag'>
+		<id>357</id>
+		<timepoint>23:50</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='5' weekday='Söndag'>
+		<id>355</id>
+		<timepoint>10:00</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='5' weekday='Söndag'>
+		<id>356</id>
+		<timepoint>23:50</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='5' weekday='Söndag'>
+		<id>493</id>
+		<timepoint>10:05</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Måndag'>
+		<id>363</id>
+		<timepoint>15:10</timepoint>
+ 		<action>ON</action>
+	</device>
+
+<!-- Config för Hela köket -->
+	<device deviceId='10' weekday='Måndag'>
+		<id>364</id>
+		<timepoint>16:10</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Måndag'>
+		<id>365</id>
+		<timepoint>16:30</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Måndag'>
+		<id>366</id>
+		<timepoint>16:45</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Måndag'>
+		<id>367</id>
+		<timepoint>17:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Måndag'>
+		<id>368</id>
+		<timepoint>18:20</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Måndag'>
+		<id>369</id>
+		<timepoint>18:22</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Måndag'>
+		<id>370</id>
+		<timepoint>18:30</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Måndag'>
+		<id>371</id>
+		<timepoint>18:45</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Måndag'>
+		<id>372</id>
+		<timepoint>18:49</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Måndag'>
+		<id>373</id>
+		<timepoint>18:59</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Måndag'>
+		<id>374</id>
+		<timepoint>20:59</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Måndag'>
+		<id>375</id>
+		<timepoint>21:20</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Måndag'>
+		<id>376</id>
+		<timepoint>22:08</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Måndag'>
+		<id>377</id>
+		<timepoint>22:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Måndag'>
+		<id>378</id>
+		<timepoint>22:21</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Måndag'>
+		<id>379</id>
+		<timepoint>23:12</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Måndag'>
+		<id>380</id>
+		<timepoint>23:20</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Tisdag'>
+		<id>381</id>
+		<timepoint>15:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Tisdag'>
+		<id>382</id>
+		<timepoint>16:10</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Tisdag'>
+		<id>383</id>
+		<timepoint>16:30</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Tisdag'>
+		<id>384</id>
+		<timepoint>16:45</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Tisdag'>
+		<id>385</id>
+		<timepoint>17:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Tisdag'>
+		<id>386</id>
+		<timepoint>18:20</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Tisdag'>
+		<id>387</id>
+		<timepoint>18:22</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Tisdag'>
+		<id>388</id>
+		<timepoint>18:30</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Tisdag'>
+		<id>389</id>
+		<timepoint>18:45</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Tisdag'>
+		<id>390</id>
+		<timepoint>18:49</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Tisdag'>
+		<id>391</id>
+		<timepoint>18:59</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Tisdag'>
+		<id>392</id>
+		<timepoint>20:59</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Tisdag'>
+		<id>393</id>
+		<timepoint>21:20</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Tisdag'>
+		<id>394</id>
+		<timepoint>22:08</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Tisdag'>
+		<id>395</id>
+		<timepoint>22:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Tisdag'>
+		<id>396</id>
+		<timepoint>22:21</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Tisdag'>
+		<id>397</id>
+		<timepoint>23:12</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Tisdag'>
+		<id>398</id>
+		<timepoint>23:20</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Onsdag'>
+		<id>399</id>
+		<timepoint>15:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Onsdag'>
+		<id>400</id>
+		<timepoint>16:10</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Onsdag'>
+		<id>401</id>
+		<timepoint>16:30</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Onsdag'>
+		<id>402</id>
+		<timepoint>16:45</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Onsdag'>
+		<id>403</id>
+		<timepoint>17:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Onsdag'>
+		<id>404</id>
+		<timepoint>18:20</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Onsdag'>
+		<id>405</id>
+		<timepoint>18:22</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Onsdag'>
+		<id>406</id>
+		<timepoint>18:30</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Onsdag'>
+		<id>407</id>
+		<timepoint>18:45</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Onsdag'>
+		<id>408</id>
+		<timepoint>18:49</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Onsdag'>
+		<id>409</id>
+		<timepoint>18:59</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Onsdag'>
+		<id>410</id>
+		<timepoint>20:59</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Onsdag'>
+		<id>411</id>
+		<timepoint>21:20</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Onsdag'>
+		<id>412</id>
+		<timepoint>22:08</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Onsdag'>
+		<id>413</id>
+		<timepoint>22:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Onsdag'>
+		<id>414</id>
+		<timepoint>22:21</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Onsdag'>
+		<id>415</id>
+		<timepoint>23:12</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Onsdag'>
+		<id>416</id>
+		<timepoint>23:20</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Torsdag'>
+		<id>417</id>
+		<timepoint>15:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Torsdag'>
+		<id>418</id>
+		<timepoint>16:10</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Torsdag'>
+		<id>419</id>
+		<timepoint>16:30</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Torsdag'>
+		<id>420</id>
+		<timepoint>16:45</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Torsdag'>
+		<id>421</id>
+		<timepoint>17:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Torsdag'>
+		<id>422</id>
+		<timepoint>18:20</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Torsdag'>
+		<id>423</id>
+		<timepoint>18:22</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Torsdag'>
+		<id>424</id>
+		<timepoint>18:30</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Torsdag'>
+		<id>425</id>
+		<timepoint>18:45</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Torsdag'>
+		<id>426</id>
+		<timepoint>18:49</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Torsdag'>
+		<id>427</id>
+		<timepoint>18:59</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Torsdag'>
+		<id>428</id>
+		<timepoint>20:59</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Torsdag'>
+		<id>429</id>
+		<timepoint>21:20</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Torsdag'>
+		<id>430</id>
+		<timepoint>22:08</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Torsdag'>
+		<id>431</id>
+		<timepoint>22:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Torsdag'>
+		<id>432</id>
+		<timepoint>22:21</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Torsdag'>
+		<id>433</id>
+		<timepoint>23:12</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Torsdag'>
+		<id>434</id>
+		<timepoint>23:20</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Fredag'>
+		<id>435</id>
+		<timepoint>15:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Fredag'>
+		<id>436</id>
+		<timepoint>16:10</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Fredag'>
+		<id>437</id>
+		<timepoint>16:30</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Fredag'>
+		<id>438</id>
+		<timepoint>16:45</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Fredag'>
+		<id>439</id>
+		<timepoint>17:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Fredag'>
+		<id>440</id>
+		<timepoint>18:20</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Fredag'>
+		<id>441</id>
+		<timepoint>18:22</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Fredag'>
+		<id>442</id>
+		<timepoint>18:30</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Fredag'>
+		<id>443</id>
+		<timepoint>18:45</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Fredag'>
+		<id>444</id>
+		<timepoint>18:49</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Fredag'>
+		<id>445</id>
+		<timepoint>18:59</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Fredag'>
+		<id>446</id>
+		<timepoint>20:59</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Fredag'>
+		<id>447</id>
+		<timepoint>21:20</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Fredag'>
+		<id>448</id>
+		<timepoint>22:08</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Fredag'>
+		<id>449</id>
+		<timepoint>22:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Fredag'>
+		<id>450</id>
+		<timepoint>22:21</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Fredag'>
+		<id>451</id>
+		<timepoint>23:12</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Fredag'>
+		<id>452</id>
+		<timepoint>23:20</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Lördag'>
+		<id>453</id>
+		<timepoint>15:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Lördag'>
+		<id>454</id>
+		<timepoint>16:10</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Lördag'>
+		<id>455</id>
+		<timepoint>16:30</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Lördag'>
+		<id>456</id>
+		<timepoint>16:45</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Lördag'>
+		<id>457</id>
+		<timepoint>17:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Lördag'>
+		<id>458</id>
+		<timepoint>18:20</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Lördag'>
+		<id>459</id>
+		<timepoint>18:22</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Lördag'>
+		<id>460</id>
+		<timepoint>18:30</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Lördag'>
+		<id>461</id>
+		<timepoint>18:45</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Lördag'>
+		<id>462</id>
+		<timepoint>18:49</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Lördag'>
+		<id>463</id>
+		<timepoint>18:59</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Lördag'>
+		<id>464</id>
+		<timepoint>20:59</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Lördag'>
+		<id>465</id>
+		<timepoint>21:20</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Lördag'>
+		<id>466</id>
+		<timepoint>22:08</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Lördag'>
+		<id>467</id>
+		<timepoint>22:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Lördag'>
+		<id>468</id>
+		<timepoint>22:21</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Lördag'>
+		<id>469</id>
+		<timepoint>23:12</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Lördag'>
+		<id>470</id>
+		<timepoint>23:20</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Söndag'>
+		<id>471</id>
+		<timepoint>15:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Söndag'>
+		<id>472</id>
+		<timepoint>16:10</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Söndag'>
+		<id>473</id>
+		<timepoint>16:30</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Söndag'>
+		<id>474</id>
+		<timepoint>16:45</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Söndag'>
+		<id>475</id>
+		<timepoint>17:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Söndag'>
+		<id>476</id>
+		<timepoint>18:20</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Söndag'>
+		<id>477</id>
+		<timepoint>18:22</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Söndag'>
+		<id>478</id>
+		<timepoint>18:30</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Söndag'>
+		<id>479</id>
+		<timepoint>18:45</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Söndag'>
+		<id>480</id>
+		<timepoint>18:49</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Söndag'>
+		<id>481</id>
+		<timepoint>18:59</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Söndag'>
+		<id>482</id>
+		<timepoint>20:59</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Söndag'>
+		<id>483</id>
+		<timepoint>21:20</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Söndag'>
+		<id>484</id>
+		<timepoint>22:08</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Söndag'>
+		<id>485</id>
+		<timepoint>22:10</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Söndag'>
+		<id>486</id>
+		<timepoint>22:21</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Söndag'>
+		<id>487</id>
+		<timepoint>23:12</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='10' weekday='Söndag'>
+		<id>488</id>
+		<timepoint>23:20</timepoint>
+ 		<action>OFF</action>
+	</device>
+</devices>
