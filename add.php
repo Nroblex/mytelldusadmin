@@ -16,6 +16,7 @@
 	<title>Ny tidpunkt</title>
 	<head>
 		<meta charset="UTF-8">
+		<link rel="stylesheet type="text/css" href="css/mystyle.css">
 	</head>
 	
 	<style>
@@ -46,7 +47,7 @@
 				type: 'post',
     			data: { "executeXML": "configdb/xmldata.xml"},
     			success: function(response) { 
-    				alert('Filen skrevs!');
+    				alert('Konfigurationsfilen configdb/xmldata.xml skrevs !');
     			}
 				
 			});

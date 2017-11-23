@@ -80,7 +80,7 @@
 			$retValue = $db->query("SELECT * FROM devices order by deviceName");
 
 			$i=0;
-			$html = $html . "<option value='0'>--Välj nedan--</option>";
+			$html = $html . "<option value='0'>--Välj enhet nedan--</option>";
 			while ($row = $retValue->fetchArray(SQLITE3_ASSOC)){
 				$i++;
 				$html = $html . "<option value=" . $row['deviceID'] . ">" . $row['deviceName'] . "</option>";
@@ -121,7 +121,7 @@
 				$sql = $sql . " and dayofweek = '" . $cnt . "'";
 				$sql = $sql . " ORDER BY timePoint DESC; ";
 
-				echo $sql;
+				//echo $sql;
 
 				$retValue = $db->query($sql);
 
