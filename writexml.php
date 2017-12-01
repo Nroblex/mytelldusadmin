@@ -1,12 +1,16 @@
 <?php 
 
+	include "sshsend.php";
+
 	function writeXml($data){
 	  	//file_put_contents($data, "\nAnders olof Selborn\n");
+
         doWrite($data);
         return "file: " + $data + " was written!";
     }
 
     if (isset($_POST['executeXML'])) {
+
     	writeXml($_POST['executeXML']);
         //echo writeXml($_POST['callFunc1']);
     }
@@ -19,10 +23,49 @@
 
 	}
 	function doWrite($fileName) {
+
+		$sshSender = new SSHFileSender();
+
+		$deviceFileName="configdb/device.xml";
+
 		unlink($fileName);
+		unlink($deviceFileName);
+
+		
 
 		$db=new MyDB();
 
+
+		//writing DeviceConfig.
+		$xml = "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>" . PHP_EOL;
+		$xml = $xml . "<Devices>". PHP_EOL;
+
+
+
+		$select = "select * from devices;";
+		$result = $db->query($select);
+		$xmldata = "";
+
+		while ($rad = $result->fetchArray(SQLITE3_ASSOC)){
+
+			$xmldata = $xmldata . "\t<DeviceConfig>" . PHP_EOL;
+			$xmldata = $xmldata . "\t\t<DeviceName>" . $rad["deviceName"] . "</DeviceName>" . PHP_EOL;
+			$xmldata = $xmldata . "\t\t<DeviceId>" . $rad["deviceID"] . "</DeviceId>" . PHP_EOL;
+			$xmldata = $xmldata . "\t\t<Comment>" . $rad["deviceType"] . "</Comment>" . PHP_EOL;
+			$xmldata = $xmldata . "\t</DeviceConfig>" . PHP_EOL;
+
+		}
+
+		$xmldata = $xmldata . "</Devices>" . PHP_EOL;
+		$xml = $xml . $xmldata;
+
+		file_put_contents($deviceFileName, $xml);
+
+		$dstFile="/home/pi/mytelldus/db/device.xml";
+		
+		$sshSender->sendSSHFile($deviceFileName, $dstFile);
+
+		#writing actual data below
 		$dataString = "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>" . PHP_EOL;
 		$dataString = $dataString . "<devices>" . PHP_EOL;
 
@@ -60,17 +103,64 @@
 		$dataString = $dataString . "</devices>" . PHP_EOL;
 		file_put_contents($fileName, $dataString, FILE_APPEND);
 
-		//scp 
-		//$connection = ssh2_connect('10.0.1.48', 22);
-		//ssh2_auth_password($connection, "pi", "lytill53");
-		//ssh2_scp_send($connection, $fileName, "/home/pi/mytelldus/db/", 0644);
-		//ssh2_exec($connection, 'exit');
+		
 
-	  $message=shell_exec("/var/www/html/mytelldusadmin/gossh.sh 2>&1");
-      print_r($message);
+		$srcFile = $fileName;
+		$dstFile = "/home/pi/mytelldus/db/schema.xml";
+
+		$sshSender->sendSSHFile($fileName, $dstFile);
+
+		/*
+
+		//$con = ssh2_connect("10.0.1.48", 22);
+		$con = ssh2_connect("192.168.86.39", 22);
+		if (!ssh2_auth_password($con, "pi", "lytill53")) {
+			die('Auth failed for SSH');
+		}
+		$sftp = ssh2_sftp($con);
+
+		$sftpStream = @fopen('ssh2.sftp://'.$sftp.$dstFile, 'w');
+
+		try {
+			if (!$sftpStream){
+				throw new Exception("Could not open remote file", $dstFile);
+			}
+
+			$dataToSend = @file_get_contents($fileName);
+
+			if (!$dataToSend){
+				throw new Exception("Could not open local file!", $fileName);
+			}
+
+			if (@fwrite($sftpStream, $dataToSend) == false){
+				throw new Exception("Could not send data from file: $srcFile.");
+				
+			}
+
+			fclose($sftpStream);
+
+		} catch(Exception $e){
+			error_log('Exception: ' . $e->getMessage());
+			fclose($sftpStream);
+		}
+
+		*/
+
+		//sendFileToRaspberry()
+
+
+	  //$message=shell_exec("/var/www/html/mytelldusadmin/gossh.sh 2>&1");
+      //print_r($message);
 	}
 
 
+function sendFileToRaspberry($fileName, $remoteFileName){
+
+
+
+
+
+}
 	
 	  
 ?>

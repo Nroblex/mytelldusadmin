@@ -22,4 +22,26 @@
 		<timepoint>10:00</timepoint>
  		<action>ON</action>
 	</device>
+	<device deviceId='2' weekday='Fredag'>
+		<id>593</id>
+		<timepoint>19:45</timepoint>
+ 		<action>ON</action>
+	</device>
+	<device deviceId='2' weekday='Fredag'>
+		<id>594</id>
+		<timepoint>20:00</timepoint>
+ 		<action>OFF</action>
+	</device>
+	<device deviceId='10' weekday='Onsdag'>
+		<id>591</id>
+		<timepoint>10:50</timepoint>
+ 		<action>ON</action>
+	</device>
+
+<!-- Config för Hela köket -->
+	<device deviceId='10' weekday='Onsdag'>
+		<id>592</id>
+		<timepoint>10:50</timepoint>
+ 		<action>ON</action>
+	</device>
 </devices>

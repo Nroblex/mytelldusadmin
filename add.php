@@ -11,6 +11,14 @@
         session_start(); 
     } 
 
+    $selectedDevice = isset($_POST['deviceOption']) ? $_POST['deviceOption'] : false;
+    if ($selectedDevice){
+    	echo htmlentities($selectedDevice, ENT_QUOTES, "UTF-8");
+    } else {
+    	echo "No Device selected!";
+    }
+
+
 ?>
 <html>
 	<title>Ny tidpunkt</title>
@@ -34,8 +42,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script type="text/javascript">
 
-		function getMe(){
-			document.write('hello');
+		function getMe(value){
+			document.write('hello ' + value);
 		}
 		function deleteRecord(deleteID){
 			//alert('delete' + deleteID);
@@ -45,9 +53,9 @@
 			$.ajax({
 				url: "writexml.php",
 				type: 'post',
-    			data: { "executeXML": "configdb/xmldata.xml"},
+    			data: { "executeXML": "configdb/schema.xml"},
     			success: function(response) { 
-    				alert('Konfigurationsfilen configdb/xmldata.xml skrevs !');
+    				alert('Config files were written and sent to Raspberry!!');
     			}
 				
 			});
@@ -64,8 +72,7 @@
 
 			if (strtoupper($_SERVER['REQUEST_METHOD']) == 'POST'){ //Denna sker efter postback!
 				
-
-
+				
 				if (isset($_POST['deviceOption'])){
 
 					$deviceOption = $_POST['deviceOption'];	
@@ -100,6 +107,7 @@
 				
 
 			} else {
+				//
 				echo $tables ->createWeekLayOut('0');
 			}
 			

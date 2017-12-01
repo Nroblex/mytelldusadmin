@@ -1,3 +1,9 @@
+<html>
+<script type="text/javascript">
+	function notice(){
+		alert('A notice from javascript');
+	}
+</script>
 <?php
 
 	ini_set('error_reporting', E_ALL);
@@ -12,10 +18,7 @@
 		}
 	}
 
-	function writeConfig() {
-		echo "Writing...";
-	}
-
+	
 	class CreateTables {
 
 		function readDevices($sql){
@@ -74,8 +77,9 @@
 			//this.form.submit()
 			$db  = new MyDB();
 			$html = "<div id='mainDiv' align='center'>";
-			$html = $html . "<form method='POST' action=''>";
+			$html = $html . "<form method='POST' action='add.php'>";
 			$html = $html . "<select id='selDevice' name='deviceOption' onchange=this.form.submit();>";
+			//$html = $html . "<select id='selDevice' name='deviceOption'>";
 
 			$retValue = $db->query("SELECT * FROM devices order by deviceName");
 
@@ -86,9 +90,11 @@
 				$html = $html . "<option value=" . $row['deviceID'] . ">" . $row['deviceName'] . "</option>";
 			}
 			$html = $html . "</select>";
+			//$html = $html . "<input type='submit' value='submit the form'</input>";
 			$html = $html . "</form>";
 			$html = $html . "</div>";
 			$html = $html . "<br><br><hr>";
+
 
 			$db->close();
 			return $html;
@@ -119,7 +125,7 @@
 				
 				$html = $html . "<th>" . $dowMap[$cnt -1] .  "</th>";
 				$sql = $sql . " and dayofweek = '" . $cnt . "'";
-				$sql = $sql . " ORDER BY timePoint DESC; ";
+				$sql = $sql . " ORDER BY timePoint ASC; ";
 
 				//echo $sql;
 
@@ -177,11 +183,14 @@
 		}
 
 		function deleteRecord($ID){
+
+			$deviceToDelete = 66;
+			
 			$db = new MyDB();
 			$sql = "DELETE from timeschema WHERE ID = '$ID'";
 			$ret = $db->exec($sql);
 			$db->close();
-
+			
 			header('Location: http://localhost:8080/mytelldusadmin/add.php');
 
 		}
@@ -191,3 +200,4 @@
 	
 	
 ?>
+</html>
